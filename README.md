@@ -1,8 +1,8 @@
-# bundledev
+# BundleDEV
 
 The BundleDEV project is a tool to collect information of many posts from several technical blogs.
 
-The project imports, normalizes and stores this information from different RSS declared in an OPML file: [engineering_blogs.opml](.src/main/resources/opml/engineering_blogs.opml)
+The project imports, normalizes and stores this information from different RSS declared in an OPML file: [engineering_blogs.opml](./bundledev-feed-collector/src/main/resources/opml/engineering_blogs.opml)
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ You have to install Docker and Docker Compose:
 * Clone source code from git
 
 ```
-$ git clone git@bitbucket.org:bundledevteam/bundledev-feed-collector.git
+$ git clone git@github.com:ivangrod/bundledev.git
 ```
 
 * Build project with Maven
@@ -32,7 +32,7 @@ $ git clone git@bitbucket.org:bundledevteam/bundledev-feed-collector.git
 $ mvn clean install
 ```
 
-* Run Docker images with Docker Compose from [docker-compose.yml](https://bitbucket.org/bundledevteam/docker/src/a27edab41b913933c0cb50ae6f846051d9bf4671/docker-compose.yml?at=master&fileviewer=file-view-default)
+* Run Docker images with Docker Compose from [docker-compose.yml](./docker/docker-compose.yml)
 
 ```
 $ docker-compose up
@@ -54,7 +54,7 @@ $ ./mvnw spring-boot:run
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://bitbucket.org/bundledevteam/bundledev-feed-collector/downloads/?tab=tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ivangrod/bundledev/releases).
 
 ## Authors
 
@@ -66,4 +66,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
+* [Engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
+
