@@ -1,0 +1,5 @@
+#spring.rabbitmq.port is used to specify the port to which the client should connect, and defaults to 5672.
+#spring.rabbitmq.username is used to specify the (optional) username.
+#spring.rabbitmq.password is used to specify the (optional) password.
+#spring.rabbitmq.host is used to specify the host, and defaults to localhost.
+#spring.rabbitmq.virtualHost is used to specify the (optional) virtual host to which the client should connect.

@@ -1,0 +1,19 @@
+logging:
+  level:
+    org.springframework.batch: INFO
+    com.bundledev.feedcollector: DEBUG
+    org.hibernate.type: trace
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bundledevdb
+    username: postgres
+    password: password
+  jpa:
+    generate-ddl: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
